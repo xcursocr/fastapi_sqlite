@@ -20,9 +20,6 @@ pip install -r requirements.txt
 # and install the require package again
 pip install --upgrade pip
 
-# change the directory to app
-cd app
-
 # run the project with uvicorn autoreload to watch the file changes
 uvicorn main:app --reload
 
